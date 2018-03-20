@@ -1,0 +1,135 @@
+  #main, #about, #portfolio, #contact {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-items:flex-start;
+  margin:0 auto; }
+
+#main {
+	background-color: purple;
+}
+body {
+	background-color: dimGray;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 19px;
+}
+
+#logo {
+	margin-left: 180px;
+	padding: 10px;
+}
+
+img {
+	border-radius: 50%;
+	padding-top: 10px;
+}
+
+hr {
+	margin-bottom: 30px;
+}
+
+button {
+	background-color: purple;
+	vertical-align: center;
+	margin-top: 20px;
+	color:gray;
+	border: none;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+button:hover {
+	border:1px solid darkMagenta;
+	color: black;
+}
+
+#button3 {
+	margin-right: 150px;
+}
+
+/*img:hover {
+	width: 55%;
+}*/
+
+.container {
+	margin-right: 150px;
+	margin-left: 150px;
+	border: 2px solid gray;
+}
+
+.selected {
+	background-color: gainsboro;
+	border-color: white;
+}
+
+#about {
+	color: white;
+	background-color: darkGray;
+	padding: 120px 20px 20px 40px;
+}
+
+#portfolio {
+	text-align: center;
+	color: gray;
+	background-color: gainsboro;
+	padding: 70px 20px 30px 20px;
+}
+
+#pic {
+	width: 270px;
+	height: 290px;
+	border-radius: 5%;
+	margin: 30px;
+}
+
+#pic:hover {
+	width:400px;
+	height:350px;
+	border-radius: 20%;
+}
+
+#two {
+	/*border: 2px dashed white;*/
+	padding: 20px;
+	font-size: 23px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+input {
+	cursor: red;
+	border: 2px solid lightGray;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	background-color: gray;
+	color: white;
+	height: 100px;
+	width:300px;
+	font-size: 20px;
+}
+
+::placeholder {
+	color: white;
+}
+
+#contact {
+	text-align: center;
+	color: white;
+	background-color: gray;
+	padding: 70px 20px 30px 20px;
+}
+
+#submit {
+	border: 2px solid white;
+	width: 150px;
+	height: 60px;
+	margin-top: 50px;
+	font-weight: bold;
+	background-color: white;
+	color: gray;
+}
+
+h4 {
+	color: white;
+}
